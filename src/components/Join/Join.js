@@ -29,12 +29,18 @@ const Join = () => {
                 </div>
             </div>
 
-{/* <div className='last-msg-container'>
-    <div className="last-msg">
-        <h1>hi i am <span>Rabiul</span></h1>
-    </div>
+            <div className='last-msg-container'>
+                <div className="last-msg wrapper">
+                    <h1 className='static-text'>Work</h1>
+                    <ul class="dynamic-txts">
+                        <li><span>YouTuber</span></li>
+                        <li><span>Designer</span></li>
+                        <li><span>Developer</span></li>
+                        <li><span>Freelancer</span></li>
+                    </ul>
+                </div>
 
-</div> */}
+            </div>
         </div>
     );
 };
