@@ -1,6 +1,6 @@
 import React from 'react';
 import "./NavBar.css"
-
+import navLogo from "../../images/nav-icon.png"
 const NavBar = () => {
     return (
         <div >
@@ -9,7 +9,7 @@ const NavBar = () => {
             </div>
             
             <nav class="container-cust">
-                <img className='logo' src="https://site.workfreeli.com/wp-content/uploads/2022/01/WFLogo2022_Wordmark-No-Background.png?1646270373" alt="" />
+                <img className='logo' src={navLogo} alt="nav-icon" />
 		
 			<ul>
 				
