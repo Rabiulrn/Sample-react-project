@@ -1,0 +1,44 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.footer-section{
+    height: 550px;
+    background-color: #0c1d48;
+    color: white;
+    padding-top: 50px;
+    padding-right: 70px;
+    padding-bottom: 40px;
+    
+}
+.footer-image{
+height: 44px;
+width: 250px;
+}
+.f-pad{
+    padding-bottom: 25px;
+    font-weight: 500;
+}
+.f-title{
+    color: #65bfff;
+    padding-bottom: 33px;
+}
+.f-link{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+.f-link:hover{
+    color: yellow;
+    text-decoration: none;
+}
+.footer-icon{
+    height: 65px;
+    width: 200px;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}

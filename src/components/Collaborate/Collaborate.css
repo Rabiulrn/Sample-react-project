@@ -1,0 +1,17 @@
+.collab{
+    display: flex;
+    justify-content: space-between;
+    height: 560px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+    
+}
+.collab-font{
+    font-size: 18px;
+    font-family: rubik,sans-serif;
+}
+.collab-image{
+    width: 625px;
+    height: 333px;
+}

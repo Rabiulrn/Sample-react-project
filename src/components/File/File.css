@@ -1,0 +1,13 @@
+.file-cont{
+    display: flex;
+    height: 672px;
+    padding-top: 50px;
+    padding-right: 100px;
+    padding-bottom: 100px;
+    margin-left: -40px;
+    
+}
+.file-image{
+    width: 655px;
+    height: 442px;
+}
