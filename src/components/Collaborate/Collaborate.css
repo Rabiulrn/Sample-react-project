@@ -1,6 +1,7 @@
 .collab{
     display: flex;
     justify-content: space-between;
+  
     height: 560px;
     padding-left: 100px;
     padding-top: 100px;
@@ -13,5 +14,5 @@
 }
 .collab-image{
     width: 625px;
-    height: 333px;
+    height: 488px;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import "./Collaborate.css"
+import colab from "../../images/Collaborate-on-one-platform-graphic-1536x1170.webp"
 const Collaborate = () => {
     return (
         <div className='collab collab-font'>
@@ -11,11 +12,14 @@ const Collaborate = () => {
                     <br />
                     Our early release offers all the features you would need to connect with teammates, share and manage files, intuitively manage your tasks, and much more!
                 </p>
+                <div style={{"marginTop":"50px"}}>
                 <a className='btn-uni' href="fb.com">Learn more</a>
+                </div>
+               
                     
             </div>
             <div >
-                <img className='collab-image' src="https://site.workfreeli.com/wp-content/uploads/2022/01/feature-one-1.png" alt="" />
+                <img className='collab-image' src={colab}alt="" />
             </div>
         </div>
     );

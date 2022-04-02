@@ -1,37 +1,39 @@
 .banner-img{
     background-image: url(../../images/Workfreeli_Homepage_Hero_Image.jpg) ;
-    height: 500px;
+    height: 700px;
+    width: 100%;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 .banner-text{
-    width: 45%;
-    font-family: rubik,sans-serif;
-    color: white;
-    padding-top: 30px;
+    width: 48%;
+    font-family: 'Rubik',sans-serif;
+    padding-top: 60px;
     padding-left: 100px;
 }
-.banner-text h1{
+.banner-h{
     font-size: 58px;
-    padding-bottom: 40px;
+    padding-bottom: 2rem;
+    color: white;
 }
-.banner-text p{
+.banner-p{
     color: #65bfff;
+    padding-bottom: 3rem;
     font-size: 18px;
-    padding-bottom: 45px;
+    line-height: 1.45;
 }
 .btn-uni{
     background-color: #fcd200;
 	padding: 12px 30px 12px 30px;
 	border-radius: 30px;
-	font-weight: 500;
 	color: black;
 	outline: none;
 	border: none;
 	text-decoration: none;
 	margin-top: 50px;
 	font-size: 20px;
+    transition: all .5s ease;
     /* font-size: 18px;
     
     line-height: 18px;
@@ -44,16 +46,16 @@
 }
 
 .btn-uni:hover{
-	background-color: cyan ;
+	background-color: rgb(11, 212, 212) ;
 	color: white;
-	transition: 1 ease;
+	
 
 }
 
 .banner-ft{
     height: 600px;
     background-color: #0c1d48;
-    background-image: url(https://site.workfreeli.com/wp-content/uploads/2022/01/Workfreeli_Homepage_Curved_Filler.jpg);
+    background-image: url(../../images/Workfreeli_Homepage_Curved_Filler.jpg);
     background-repeat: no-repeat;
     background-position: center top;
     background-attachment: scroll;

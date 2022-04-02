@@ -1,6 +1,8 @@
 import React from 'react';
 import "./NewFeature.css"
 import "../Footer/Footer.css"
+import gp from "../../images/google-play-1.png"
+import apps from "../../images/app-store-1.png"
 const NewFeature = () => {
     return (
         <div className='newft-container'>
@@ -10,15 +12,15 @@ const NewFeature = () => {
                     <div className='newft-icon'>
                     <div>
                         <a href="fb.com">
-                            <div className='footer-icon'>
-                                <img src="https://site.workfreeli.com/wp-content/uploads/2022/01/app-store-1.png" alt="" />
+                            <div className='apps-icon'>
+                                <img src={gp} alt="" />
                             </div>
                         </a>
                     </div>
                     <div style={{"paddingLeft":"80px"}}>
                         <a href="fb.com">
-                            <div className='footer-icon'>
-                                <img src="https://site.workfreeli.com/wp-content/uploads/2022/01/google-play-1.png" alt="" />
+                            <div className='apps-icon'>
+                                <img src={apps}alt="" />
                             </div>
                         </a>
                     </div>

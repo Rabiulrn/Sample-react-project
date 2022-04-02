@@ -10,6 +10,9 @@ import NewFeature from '../NewFeature/NewFeature';
 const Home = () => {
     return (
         <div>
+            <div className="extra">
+                <p className='extra-p'>Get early access to Workfreeli. We will continuously be rolling out new features and will keep you posted.</p>
+            </div>
             <NavBar></NavBar>
             <Banner></Banner>
             <Collaborate></Collaborate>

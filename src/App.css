@@ -1,3 +1,8 @@
+*{
+  font-family: 'Rubik', sans-serif;
+  padding: 0px;
+  margin: 0px;
+}
 .App {
   text-align: center;
 }

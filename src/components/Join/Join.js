@@ -9,11 +9,36 @@ const Join = () => {
                     <p>
                         With our complimentary starter plan, you and your teammates can try all our features.
                     </p>
-                    <a className='btn-uni' href="fb.com">Try it for free</a>
+                    <div style={{ "marginTop": "50px" }}>
+                        <a className='btn-uni' href="fb.com"  >Try it for free</a>
+                    </div>
+
                 </div>
 
             </div>
-            <div className='subscribe'>
+
+            <div className="join-cont-p">
+                <div className="join-cont">
+                    <div className="join-text">
+                        <p className='join-h1'>Lots more to come!</p>
+                        <p className='join-p'>We are continuously rolling out new features. To be the first to know, subscribe to our newsletter today.</p>
+
+                        <div className="join-input">
+                            <div class="field">
+                                <input type="text" name="fullname" id="Email"  style={{ "marginRight": "20px" }} />
+                                <span className='label'>Your Email </span>
+                            </div>
+                            <div>
+                                <a className='btn-uni' href="fb.com">Subscribe</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            {/* <div className='subscribe'>
                 <div className=' container sub-text'>
                     <h1>We look forward to introducing additional business <br /> features.</h1>
                     <p>
@@ -27,16 +52,16 @@ const Join = () => {
 
                     <a className='btn-uni' href="fb.com">Subscribe</a>
                 </div>
-            </div>
-
+            </div> */}
+            
             <div className='last-msg-container'>
-                <div className="last-msg wrapper">
-                    <h1 className='static-text'>Work</h1>
+                <div className="wrapper">
+                    <h1 className='static-txt'>Work</h1>
                     <ul class="dynamic-txts">
-                        <li><span>YouTuber</span></li>
-                        <li><span>Designer</span></li>
-                        <li><span>Developer</span></li>
-                        <li><span>Freelancer</span></li>
+                        <li><span>Togather</span></li>
+                        <li><span>On Time</span></li>
+                        <li><span>Socially</span></li>
+                        <li><span>Freeli</span></li>
                     </ul>
                 </div>
 
