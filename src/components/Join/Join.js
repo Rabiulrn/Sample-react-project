@@ -25,7 +25,7 @@ const Join = () => {
 
                         <div className="join-input">
                             <div class="field">
-                                <input type="text" name="fullname" id="Email"  style={{ "marginRight": "20px" }} />
+                                <input type="text" name="fullname" id="h-input"  style={{ "marginRight": "20px" }} />
                                 <span className='label'>Your Email </span>
                             </div>
                             <div>

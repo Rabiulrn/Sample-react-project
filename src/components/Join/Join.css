@@ -152,7 +152,7 @@ padding-top: 30px;
 
 
 
-  input {
+  #h-input {
     color: #fff;
     font-size: 1.5em;
     border: 0;
@@ -166,7 +166,7 @@ padding-top: 30px;
   }
 
 
-  input:focus {
+  #h-input:focus {
     outline: 0;
     border-bottom: 2px solid green;
     cursor: text;

@@ -1,0 +1,56 @@
+.Product-banner{
+    background-image: url(https://workfreeli.com/wp-content/uploads/2022/03/Workfreeli_Our-Products_Hero.webp);
+    height: 700px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.p-banner-h{
+    /* width: 50%; */
+    color:#65bfff;
+    font-size: 58px;
+}
+.p-banner-h p{
+    margin-bottom: 50px;
+}
+.p-chat{
+    display: flex;
+    padding: 100px;
+}
+.p-chat-img-div{
+    padding-top: 100px;
+}
+.p-chat-img{
+    width: 534px;
+    height: 500px;
+}
+.p-chat-text{
+    padding-left: 100px;
+ 
+}
+.p-chat-h{
+    font-size: 40px;
+
+}
+.p-chat-h2{
+    font-size: 28px;
+}
+
+
+.p-msg{
+    display: flex;
+    background-color:  #f5f9fc;
+    padding: 100px;
+}
+.p-msg-text{
+    width: 50%;
+    padding-right: 100px;
+}
+.p-msg-img-div{
+    margin-left: 100px;
+}
+.p-msg-img{
+    height: 500px;
+   
+}
